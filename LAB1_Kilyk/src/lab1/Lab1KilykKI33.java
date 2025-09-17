@@ -3,8 +3,25 @@ import java.io.IOException;
 import java.io.PrintStream;
 import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
+/**
+* Лабораторна робота №1
+* Клас Lab1KilykKI33 генерує зубчатий масив (трикутну частину квадратної матриці), 
+* виводить його на екран та записує у файл. 
+* <p>Виконано згідно індивідуального варіанту</p> 
+* 
+* @author Kilyk 
+* @version 1.0 
+* @since 1.0 
+*/
+
 
 public class Lab1KilykKI33 {
+
+/**
+* Точка входу у програму 
+* @param args аргументи командного рядка 
+* @throws IOException якщо не вдасться створити файл для виводу 
+*/
 
     public static void main(String[] args) throws IOException {
         
