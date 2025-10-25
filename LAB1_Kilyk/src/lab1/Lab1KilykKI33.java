@@ -25,7 +25,7 @@ public class Lab1KilykKI33 {
 
     public static void main(String[] args) throws IOException {
         
-        PrintStream out = new PrintStream(System.out, true, StandardCharsets.UTF_8);
+        PrintStream out = new PrintStream(System.out, true,StandardCharsets.UTF_8);
         Scanner in = new Scanner(System.in);
 
         out.print("Введіть розмір трикутника: ");
@@ -41,9 +41,9 @@ public class Lab1KilykKI33 {
         }
         char fillChar = filler.charAt(0);
         
-        try (PrintStream fileOut = new PrintStream("output.txt", StandardCharsets.UTF_8)) {
+        try (PrintStream fileOut = new PrintStream("output.txt", StandardCharsets.UTF_8 )) {
 
-            for (int i = 0; i < nRows; i++) {
+            for (int i = 0; i <= nRows; i++) {
                 
                 for (int k = 0; k < nRows - i - 1; k++) {
                     out.print("\t");

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html","k":"18"},{"p":"KI_303Kilyk.Lab2","l":"Door"},{"p":"KI_303Kilyk.Lab2","l":"House"},{"p":"KI_303Kilyk.Lab2","l":"Main"},{"p":"KI_303Kilyk.Lab2","l":"Room"},{"p":"KI_303Kilyk.Lab2","l":"Window"}];updateSearchResults();
