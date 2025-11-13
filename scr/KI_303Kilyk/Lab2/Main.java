@@ -6,6 +6,7 @@ package KI_303Kilyk.Lab2;
 public class Main {
     public static void main(String[] args) {
         try {
+        
             House house = new House();
             house.describe();
             house.openDoor();

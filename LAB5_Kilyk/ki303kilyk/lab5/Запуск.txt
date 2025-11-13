@@ -1,0 +1,4 @@
+cd "C:\Users\kiluk\OneDrive\Desktop\3 курс\Кросплатформні засоби програмування\CPPT_Kilyk_IR_KI_33_1\LAB5_Kilyk"
+javac -d bin ki303kilyk/lab5/*.java
+java -cp bin ki303kilyk.lab5.Main
+
