@@ -1,4 +1,3 @@
-
 class Building:
     def __init__(self, address, floors, area, height):
         self.address = address
@@ -7,7 +6,7 @@ class Building:
         self.height = height
 
     def get_info(self):
-        return f"Будинок за адресою {self.address}, {self.floors} поверхів, площа {self.area} м², висота {self.height} м"
+        return f"Будинок за адресою {self.address}, {self.floors} поверхів, площа {self.area} м², висота {self.height} м "
 
     def calculate_floor_area(self):
         if self.floors > 0:

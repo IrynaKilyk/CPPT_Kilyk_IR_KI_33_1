@@ -39,36 +39,21 @@ public class PenCase<T extends Comparable<T>> {
      * Повертає максимальний елемент у пеналі
      * @return максимальний елемент або null, якщо пенал порожній
      */
-    public T getMaxItem() {
-        if (items.isEmpty()) return null;
+       public double getMaxItem() {
+        //if (items.isEmpty()) return null;
         T max = items.get(0);
+        int l = 0;
         for (T item : items) {
-            if (item.compareTo(max) > 0) {
-                max = item;
+            l += item.compareTo(max);
+
+
+           // if (item.compareTo(max) > 0) {
+            //    max = item;
             }
+           // item
+         return l / items.size(); 
+         }
         }
-        return max;
-    }
 
-    /**
-     * Виводить всі елементи пеналу
-     */
-    public void displayItems() {
-        if (items.isEmpty()) {
-            System.out.println("Пенал порожнiй.");
-            return;
-        }
-        System.out.println("Елементи пеналу:");
-        for (T item : items) {
-            System.out.println(item);
-        }
-    }
 
-    /**
-     * Повертає кількість елементів у пеналі
-     * @return кількість елементів
-     */
-    public int getSize() {
-        return items.size();
-    }
-}
+

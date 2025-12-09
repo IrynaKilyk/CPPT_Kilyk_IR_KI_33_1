@@ -22,7 +22,7 @@ public class Pencil implements Comparable<Pencil> {
 
     @Override
     public int compareTo(Pencil other) {
-        return Integer.compare(this.length, other.length); // порівнюємо за довжиною
+        return this.length;//Integer.compare(this.length, other.length); // порівнюємо за довжиною
     }
 
     @Override
